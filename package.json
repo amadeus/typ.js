@@ -1,0 +1,19 @@
+{
+  "name": "typ.js",
+  "version": "1.0.1",
+  "description": "A simple JS type checking library.",
+  "main": "typ.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amadeus/typ.js.git"
+  },
+  "author": "Amadeus Demarzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amadeus/typ.js/issues"
+  },
+  "homepage": "https://github.com/amadeus/typ.js"
+}
