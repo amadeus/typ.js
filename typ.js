@@ -1,10 +1,19 @@
-(function(global){
+/* global module */
+(function(root, factory) {
+	if (typeof exports === 'object') {
+		module.exports = factory();
+	} else if (typeof define === 'function' && define.amd) {
+		define(
+			'typ',
+			[],
+			factory
+		);
+	} else {
+		root.typ = factory();
+	}
+})(this, function() { 'use strict';
 
 var toString, toStringMap, toStringRegex, toElementRegex, typ;
-
-if (global.typ) {
-	throw new Error('window.typ already defined');
-}
 
 toString    = Object.prototype.toString;
 toStringMap = {};
@@ -58,6 +67,6 @@ typ = {
 	}
 };
 
-global.typ = typ;
+return typ;
 
-})(this);
+});
