@@ -1,4 +1,4 @@
-define(function(undefined){
+define(function(){
 
 var toString, toStringMap, toStringRegex, toElementRegex, typ;
 

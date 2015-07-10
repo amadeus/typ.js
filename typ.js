@@ -1,4 +1,4 @@
-(function(global, undefined){
+(function(global){
 
 var toString, toStringMap, toStringRegex, toElementRegex, typ;
 
